@@ -1,0 +1,11 @@
+Added Net: Name=CLK
+Added Net: Name=GND
+Added Net: Name=NetU1_2
+Added Net: Name=NetU1_9
+Added Net: Name=NetU2_2
+Added Net: Name=Q0
+Added Net: Name=Q1
+Added Net: Name=Q2
+Added Net: Name=VCC
+Added Net: Name=VDD
+Added Class: Name=asincronico
