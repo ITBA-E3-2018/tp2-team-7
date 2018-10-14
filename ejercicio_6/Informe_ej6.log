@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  14 OCT 2018 17:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.14)  14 OCT 2018 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/marce/Escritorio/Electro3_TPS/tp2-team-7/ejercicio_8/Informe_Ej8.tex
-(/home/marce/Escritorio/Electro3_TPS/tp2-team-7/ejercicio_8/Informe_Ej8.tex
+**/home/marce/Escritorio/Electro3_TPS/tp2-team-7/ejercicio_6/Informe_ej6.tex
+(/home/marce/Escritorio/Electro3_TPS/tp2-team-7/ejercicio_6/Informe_ej6.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 7 language(s) loaded.
 (./baseHoja.tex
@@ -1142,8 +1142,8 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(./Informe_Ej8.aux)
-\openout1 = `Informe_Ej8.aux'.
+(./Informe_ej6.aux)
+\openout1 = `Informe_ej6.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -1267,52 +1267,24 @@ e
 ))
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 4.
-<blockDiagram.png, id=4, 1154.81438pt x 350.05782pt>
-File: blockDiagram.png Graphic file (type png)
-<use blockDiagram.png>
-Package pdftex.def Info: blockDiagram.png  used on input line 13.
-(pdftex.def)             Requested size: 478.00641pt x 144.89737pt.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 18.
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 20
-.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 8.
+<latchSR.PDF, id=4, 224.20763pt x 151.93764pt>
+File: latchSR.PDF Graphic file (type pdf)
+<use latchSR.PDF>
+Package pdftex.def Info: latchSR.PDF  used on input line 15.
+(pdftex.def)             Requested size: 191.19963pt x 129.56953pt.
+<dflipflop.pdf, id=5, 549.42264pt x 296.47763pt>
+File: dflipflop.pdf Graphic file (type pdf)
+<use dflipflop.pdf>
+Package pdftex.def Info: dflipflop.pdf  used on input line 31.
+(pdftex.def)             Requested size: 430.20284pt x 232.14732pt.
 
-(/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 20.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 20.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 20.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 20.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 20.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 20.
-LaTeX Font Info:    Try loading font information for U+esint on input line 20.
-
-(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
-File: uesint.fd 
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<trigerEnable_Time.png, id=6, 285.2256pt x 145.14224pt>
-File: trigerEnable_Time.png Graphic file (type png)
-<use trigerEnable_Time.png>
-Package pdftex.def Info: trigerEnable_Time.png  used on input line 35.
-(pdftex.def)             Requested size: 334.60301pt x 170.27194pt.
+Overfull \hbox (0.52051pt too wide) in paragraph at lines 36--40
+[]\T1/futs/m/n/12 PARAMETROS IM-POR-TANTES: PROPA-GA-CION DEL D A LA SAL-IDA LU
+EGO DEL CLK, TANTO
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1322,72 +1294,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./blockDiagram.png> <./trigerEnable_Time.png>]
-<trig_enable.png, id=17, 1011.17775pt x 510.10574pt>
-File: trig_enable.png Graphic file (type png)
-<use trig_enable.png>
-Package pdftex.def Info: trig_enable.png  used on input line 47.
-(pdftex.def)             Requested size: 478.00641pt x 241.13521pt.
-<CLK_time.png, id=18, 289.20045pt x 84.91725pt>
-File: CLK_time.png Graphic file (type png)
-<use CLK_time.png>
-Package pdftex.def Info: CLK_time.png  used on input line 76.
-(pdftex.def)             Requested size: 310.70123pt x 91.23372pt.
- [2 <./trig_enable.png> <./CLK_time.png>]
-<Unit_Detector.png, id=25, 404.10976pt x 107.2005pt>
-File: Unit_Detector.png Graphic file (type png)
-<use Unit_Detector.png>
-Package pdftex.def Info: Unit_Detector.png  used on input line 86.
-(pdftex.def)             Requested size: 286.80676pt x 76.08507pt.
-<Unit_Counter.png, id=26, 457.71pt x 377.61075pt>
-File: Unit_Counter.png Graphic file (type png)
-<use Unit_Counter.png>
-Package pdftex.def Info: Unit_Counter.png  used on input line 103.
-(pdftex.def)             Requested size: 239.0032pt x 197.1769pt.
-<Meas_End.png, id=27, 1043.69925pt x 143.93774pt>
-File: Meas_End.png Graphic file (type png)
-<use Meas_End.png>
-Package pdftex.def Info: Meas_End.png  used on input line 116.
-(pdftex.def)             Requested size: 478.00641pt x 65.92224pt.
- [3 <./Unit_Detector.png> <./Unit_Counter.png> <./Meas_End.png>]
-<pullDown_Switch.png, id=31, 423.38174pt x 211.38976pt>
-File: pullDown_Switch.png Graphic file (type png)
-<use pullDown_Switch.png>
-Package pdftex.def Info: pullDown_Switch.png  used on input line 132.
-(pdftex.def)             Requested size: 239.0032pt x 119.3322pt.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 138.
-<Transistor_LogicLED.png, id=32, 793.16325pt x 374.5995pt>
-File: Transistor_LogicLED.png Graphic file (type png)
-<use Transistor_LogicLED.png>
-Package pdftex.def Info: Transistor_LogicLED.png  used on input line 151.
-(pdftex.def)             Requested size: 430.20284pt x 203.17812pt.
- [4 <./pullDown_Switch.png> <./Transistor_LogicLED.png>]
-<Display.png, id=36, 461.3235pt x 459.51675pt>
-File: Display.png Graphic file (type png)
-<use Display.png>
-Package pdftex.def Info: Display.png  used on input line 169.
-(pdftex.def)             Requested size: 478.00641pt x 476.14024pt.
- [5 <./Display.png>] [6] (./Informe_Ej8.aux) ) 
+ <./latchSR.PDF> <./dflipflop.pdf>] (./Informe_ej6.aux) ) 
 Here is how much of TeX's memory you used:
- 14912 strings out of 494847
- 279969 string characters out of 6179079
- 314784 words of memory out of 5000000
- 17854 multiletter control sequences out of 15000+600000
- 53369 words of font info for 68 fonts, out of 8000000 for 9000
+ 14794 strings out of 494847
+ 277867 string characters out of 6179079
+ 312784 words of memory out of 5000000
+ 17774 multiletter control sequences out of 15000+600000
+ 26855 words of font info for 27 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 57i,11n,54p,500b,252s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fo
-nts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fou
-rier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/f
-ourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fouri
-er-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Informe_Ej8.pdf (6 pages, 343300 bytes).
+ 57i,11n,54p,500b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/te
+xmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1
+/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopi
+a/putr8a.pfb>
+Output written on Informe_ej6.pdf (1 page, 57540 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 30 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

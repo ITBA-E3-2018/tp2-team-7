@@ -10,8 +10,7 @@ the following block diagram.
 
 \begin{figure}[H]
     \begin{centering}
-    PONER GRAFICO DIAGRAMA
-        %\includegraphics[width=1\textwidth]{trig_enable}
+    \includegraphics[width=1\textwidth]{blockDiagram}
     \par\end{centering}
     \caption{Distance measurement system - Block diagram}
 \end{figure}
@@ -33,12 +32,11 @@ following time diagram.
 
 \begin{figure}[H]
     \begin{centering}
-        PONER GRAFICO DE TIEMPO
-    %\includegraphics[width=1\textwidth]{ImplementacionEj2}
+    \includegraphics[width=0.7\textwidth]{trigerEnable_Time}
     \par\end{centering}
     \caption{Trigger Enable Logic - Time diagram}
 \end{figure}
-
+\newpage
 The ultrasonic sensor needs a pulse of a period T > 10$\mu$Seg, 
 so the edge of TRIGGER input is sended to a monostable circuit
 (implemented with a LM555 timer) to ensure that the condition is met.
@@ -48,7 +46,7 @@ The final schematic of this section is shown below.
     \begin{centering}
         \includegraphics[width=1\textwidth]{trig_enable}
     \par\end{centering}
-    \caption{Trigger Enable Logic - Schematic circuit}
+    \caption{Trigger Enable Logic - Schematic circuit made in Altium 15}
 \end{figure}
 
 \subsection*{HC - SR04 Sensor}
@@ -75,8 +73,7 @@ The previous performance is shown in the time diagram below.
 
 \begin{figure}[H]
     \begin{centering}
-        PONER GRAFICO DE TIEMPO
-    %\includegraphics[width=1\textwidth]{ImplementacionEj2}
+    \includegraphics[width=0.65\textwidth]{CLK_time}
     \par\end{centering}
     \caption{Measure units detector - Time diagram}
 \end{figure}
@@ -86,9 +83,9 @@ The schematic for this section is shown below.
 
 \begin{figure}[H]
     \begin{centering}
-    \includegraphics[width=0.7\textwidth]{Unit_Detector}
+    \includegraphics[width=0.6\textwidth]{Unit_Detector}
     \par\end{centering}
-    \caption{Measure units detector - Schematic circuit}
+    \caption{Measure units detector - Schematic circuit made in Altium 15}
 \end{figure}
 
 \subsection*{Synchronous counter}
@@ -103,9 +100,9 @@ The integrated circuit implementation is shown below.
 
 \begin{figure}[H]
     \begin{centering}
-    \includegraphics[width=0.7\textwidth]{Unit_Counter}
+    \includegraphics[width=0.5\textwidth]{Unit_Counter}
     \par\end{centering}
-    \caption{Synchronous counter - Schematic circuit}
+    \caption{Synchronous counter - Schematic circuit made in Altium 15}
 \end{figure}
 
 \subsection*{End of measure detector}
@@ -118,7 +115,7 @@ The circuit diagram of the implementation is shown below.
     \begin{centering}
     \includegraphics[width=1\textwidth]{Meas_End}
     \par\end{centering}
-    \caption{End of measure detector - Schematic circuit}
+    \caption{End of measure detector - Schematic circuit made in Altium 15}
 \end{figure}
 
 The binary output resulting from the measure stays on until a new positive edge from the trigger is 
@@ -132,9 +129,9 @@ switched into the state $(2)$, a manual switch for reset is added with a pull-do
 
 \begin{figure}[H]
     \begin{centering}
-    \includegraphics[width=0.7\textwidth]{pullDown_Switch}
+    \includegraphics[width=0.5\textwidth]{pullDown_Switch}
     \par\end{centering}
-    \caption{Manual reset with pull-down resistor}
+    \caption{Manual reset with pull-down resistor - Made in Altium 15}
 \end{figure}
 
 \subsection*{Aditional settings}
@@ -151,9 +148,9 @@ The schematic circuit is shown below.
 
 \begin{figure}[H]
     \begin{centering}
-    \includegraphics[width=1\textwidth]{Transistor_LogicLED}
+    \includegraphics[width=0.9\textwidth]{Transistor_LogicLED}
     \par\end{centering}
-    \caption{MEASURE\_END indicator - transistor logic}
+    \caption{MEASURE\_END indicator - Transistor logic made in Altium 15}
 \end{figure}
 The calculation of the resistors can be read from the Annex.
 
@@ -171,7 +168,7 @@ a separete PCB.
     \begin{centering}
     \includegraphics[width=1\textwidth]{Display}
     \par\end{centering}
-    \caption{Measure display - Schematic circuit}
+    \caption{Measure display - Schematic circuit made in Altium 15}
 \end{figure}
 
 \newpage 
