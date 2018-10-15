@@ -1,5 +1,6 @@
 %Task 6
 \input{baseHoja.tex}
+\usepackage{multirow}
 \begin{document}
 
 \section*{Task 6}
@@ -21,6 +22,26 @@ PARAMETROS IMPORTANTES: PROPAGACION DE SET O
 RESET A LAS SALIDAS. MEDIR. COMPARAR CON UNO
 COMERCIAL CUALQUIERA
 
+\begin{table}[H]
+    \begin{center}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline 
+            \multicolumn{2}{|c|}{PARAMETER} & FROM & TO & VALUE\tabularnewline
+            \hline 
+            \hline 
+            \multirow{2}{*}{$t_{pd}$} & Circuit & S & Q & \tabularnewline
+            \cline{2-5} 
+             & 74HC279 & S & Q & 30ns o 26ns\tabularnewline
+            \hline 
+            \multirow{2}{*}{$t_{pd}$} & Circuit & R & Q & \tabularnewline
+            \cline{2-5} 
+             & 74HC279 & R & Q & 31ns o 36ns\tabularnewline
+            \hline 
+            \end{tabular}
+    \caption{Measured values}
+    \end{center}
+\end{table}
+
 \subsection*{D Flip-Flop}
 For the D flip-flop, it is implemented using 
 the SR Latch designed before, adding the 
@@ -37,5 +58,28 @@ PARAMETROS IMPORTANTES: PROPAGACION DEL D A
 LA SALIDA LUEGO DEL CLK, TANTO PARA 0 COMO
 PARA 1. MEDIR. COMPARAR CON UNO COMERCIAL
 CUALQUIERA.
+The designed circuit will be compared with the 
+74HC74 D Flip-Flop, using the datasheet of Texas 
+Instruments.
+
+\begin{table}[H]
+    \begin{center}
+        \begin{tabular}{|c|c|c|c|c|}
+            \hline 
+            \multicolumn{2}{|c|}{PARAMETER} & FROM & TO & VALUE\tabularnewline
+            \hline 
+            \hline 
+            \multirow{2}{*}{$t_{pd}$} & Circuit & CLK & Q or /Q & \tabularnewline
+            \cline{2-5} 
+             & 74HC74 & CLK & Q or /Q & 44ns o 37ns\tabularnewline
+            \hline 
+            \multirow{2}{*}{$t_t$} & Circuit &  & Q or /Q & \tabularnewline
+            \cline{2-5} 
+             & 74HC74 &  & Q or /Q & 19ns o 16ns\tabularnewline
+            \hline 
+            \end{tabular}
+    \caption{Measured values}
+    \end{center}
+\end{table}
 
 \end{document}
