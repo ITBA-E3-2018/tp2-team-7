@@ -1,0 +1,21 @@
+Anlg Ch State  Units/Div  Position  Coupling  BW Limit  Invert  Impedance 
+ Ch 1:    On     2.00V/     0.0V       DC        Off      Off     1M Ohm  
+
+Anlg Ch   Probe  
+ Ch 1:  1.00 : 1 
+
+  Trigger    Mode   Coupling  Noise Rej  Holdoff 
+Pulse Width Normal     DC        Off       60ns  
+
+  Trigger   Source  Polarity       Qualifier        Level 
+Pulse Width  Ch 1   Positive  20.0ns < t < 30.0ns  +1.38V 
+
+ Time  Time Ref  Main s/div    Delay  
+Normal  Center    50.00us/   -500.0ns 
+
+Acquisition Realtime  Vectors  Inf Persist 
+   Normal      On        On        Off     
+
+  Measure  Current  Mean  Min  Max  Std Dev  Count 
+Maximum(1)  5.25V                              0   
+
