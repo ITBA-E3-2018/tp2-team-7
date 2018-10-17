@@ -1,4 +1,5 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage[left=2cm, right=2cm, top=2cm]{geometry}
 \usepackage{karnaugh-map}
 \usepackage[utf8]{inputenc}
 \usepackage{amssymb,amsmath}
@@ -15,8 +16,11 @@
 
 Given a truth table, it was requested to see what happens
 when the truth table is implemented with the smallest quantity of logic
-gates. To perform this task, ICs that either have NOR 
-or NAND logic gates will be used.
+gates. To perform this task, ICs that have NAND logic gates only
+ will be used. This is because in most of ICs there are many
+logic gates so it's a waste of logic gates if we use for example
+just one of them. Note that this can also be implemented with 
+NOR only ICs.
 
 \subsection*{Low cost approach}
 \begin{figure}[htbp]
@@ -28,9 +32,6 @@ or NAND logic gates will be used.
     \caption{Karnaugh Map of the given truth table}
     \label{fig:KarnaughMap}
     \end{figure}
-We can get the minimal cost output expressed either in groups of 
-maxterms (orange and red groups) or minterms (blue and green groups).
-\linebreak
 Let Z be the output label, its reduced minterms expression is:
 \begin{equation}
     Z= (\bar{A}.B)+(C.\bar{B})
@@ -121,31 +122,59 @@ Also, its reduced maxterms expression is:
 
 Note that the quantity of logic gates in both cases are the same.
 
-\section*{Glitch analysis}
-Sometimes propagation delays cause unexpected and unwanted transition 
-in the ouput. This issue is called 'glitch' and it's related to how 
-the logical circuit is synthesized. In this section, the NAND implementation
- will be taken into account.
-If we take into accout the propagation time of the NAND logic gate
-(here we assume all propagation times are equal) and then observe transition
- of the states A,B,C from 011 to 001 respectively.
+\section*{Hazards}
+
+Sometimes propagation delays cause unexpected and unwanted transitions 
+in the ouput. Depending on what we see in the output is how this issue is
+called. If there is a transition from 1 to 0 and the output was supposed to
+stay at 1 it is said that the circuit has a static 1-hazard. If the output must
+go from 0 to 1(or 1 to 0) and before establishing at 1 (or 0), it changes its value 
+it is said that the circuit has a dynamic hazard.
+
+Hazards can always be found at the Karnaugh map.
+An input that follows multiple paths to an output can create a glitch (due to the hazards in the circuit) if, for example, 
+one path has an inverter (in this case implemented with a NAND logic gate) 
+and one does not. This issue is called "asymmetric path delay" and it can be
+seen in Figure~\ref{fig:KarnaughMap} with the input B. 
+
+\begin{figure}[H] 
+    \begin{center}
+    \includegraphics[width=9cm,height=6cm]{hazard.png}
+    \end{center}
+    \caption{Different types of hazards}
+    \label{fig:hazards}
+    \end{figure} 
+
+
+
+ \subsection*{Static 1-Hazard example} 
+ Take the NAND implementation into account, assume all the propagation times 
+ equal and then observe transition of the states A,B,C from 011 to 001 respectively.
 
 
 \begin{figure}[H] 
     \begin{center}
-    \includegraphics[width=7cm,height=9cm]{glitch.png}
+    \includegraphics[width=6cm,height=8cm]{glitch.png}
     \end{center}
     \caption{Propagation time analysis}
     \label{fig:proptime}
     \end{figure} 
-Note that the interval of time tp in Figure~\ref{fig:proptime}  denotes the propagation time.
-\linebreak
-The result might be at first surprising but  in fact this effect was in someway
-expected. Take a look at the Karnaugh map in Figure~\ref{fig:KarnaughMap}.
-An input that follows multiple paths to an output can create a glitch if 
-one path has an inverter (in this case implemented with a NAND logic gate) 
-and one does not. This issue is called "asymmetric path delay" and it can be
-seen in Figure~\ref{fig:KarnaughMap} with the input B.
+Note that tp in Figure~\ref{fig:proptime}  denotes the propagation time.
+
+It can be seen that there should be a glitch at the output.The different combination of delays that produce a glitch may or may not be likely 
+to occur in the implementation of the circuit. In some instances it is very 
+unlikely that such delays would occur.
+
+
+\section*{Measures obtained from NAND implementation}
+\begin{figure}[H] 
+\begin{center}
+\includegraphics[width=8.25cm,height=8cm]{000to001.png}
+\includegraphics[width=8.25cm,height=8cm]{001to011.png}
+\end{center}
+\caption{Dynamic hazard and static 1-hazard respectively}
+\label{fig:measures}
+\end{figure} 
 
 \section*{Conclusion}
 In order to remove glitches it is needed to add redundant groups in the
@@ -154,7 +183,7 @@ Karnaugh Map so that disjoint groups overlap.
     \begin{center}
     \includegraphics{karnaugh_improved.pdf}
     \end{center}
-    \caption{Improved karnaugh}
+    \caption{Karnaugh with redundant logic}
     \label{fig:karnaugh_improved}
     \end{figure} 
 In this case the output is given by:
@@ -162,17 +191,8 @@ In this case the output is given by:
     Z= (\bar{A}+\bar{B}).(C+B)+(\bar{A}.C)    
 \end{equation*} 
 
-Note that the new term added to the expression is not dependent
-of the value of B so regardless of the variation of B there won't be glitches
-in the output, because it will be fixed by this new term of sum of products.
-\linebreak
-Finally to give some sense to the adding some redundant logic,
-when we make Karnaugh groups we take the non-changing states and
-the only variable that changes of state in the new group is B
-which is reasonable due to the fact that that's the variable 
-causing the issue.
-Depending on the application it may be important or not to remove
-glitches.
-There might be more glitches, remember that this is just one particular case,
-where glitches are more likely to happen.
+Note that the new term term of the expression is not dependent
+of B so regardless of the variation of B there won't be glitches
+in the output.
+
 \end{document}
