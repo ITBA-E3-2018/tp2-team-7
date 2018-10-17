@@ -364,6 +364,14 @@ INPUT ./data/latchSR.PDF
 INPUT data/dflipflop.pdf
 INPUT ./data/dflipflop.pdf
 INPUT ./data/dflipflop.pdf
+INPUT doc/ej7.tex
+INPUT doc/ej7.tex
+INPUT data/async.png
+INPUT ./data/async.png
+INPUT ./data/async.png
+INPUT data/sync.png
+INPUT ./data/sync.png
+INPUT ./data/sync.png
 INPUT doc/ej8.tex
 INPUT doc/ej8.tex
 INPUT data/blockDiagram.png
