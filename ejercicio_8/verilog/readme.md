@@ -4,7 +4,7 @@ Verilog tests for task 8
 
 - pulse
 - trigger_enable
-- bcd2digit
+- bin2bcd
 
 We ran out of time to do a bcd counter test. Sorry about that
 
