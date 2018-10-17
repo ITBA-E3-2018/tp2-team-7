@@ -1,6 +1,7 @@
 \newpage
 \section*{Task 1}
-NOT gates with BJT transistors (NPN)
+In this section are implemented NOT gates with BJT transistors (NPN), in two different configurations,
+ as shown below.
 
 \begin{figure}[H] 
 \begin{center}
@@ -16,13 +17,13 @@ NOT gates with BJT transistors (NPN)
 \begin{center}
 \includegraphics[width=8.25cm,height=8cm]{data/imax1.png}
 \end{center}
-\caption{}
+\caption{TTL with capacitors load. CH1: Vin - CH2: Vout - MATH: Derivate of Vout}
 \label{fig:measures}
 \end{figure} 
 
 Where $V_{IH}$: minimum HIGH input voltage, $V_{IL}$: maximum LOW input voltage, $V_{OH}$: minimum HIGH output voltage, $V_{OL}$: maximum LOW output voltage.
 
-To meassure these values we use the ramp waveform and the oscilloscope in xy mode so we can see something like this:
+To measure these values we use the ramp waveform and the oscilloscope in xy mode so we can see something like this:
 \begin{figure}[H] 
     \begin{center}
     \includegraphics[width=8.25cm,height=8cm]{data/xy_ttl_bjt.png}
@@ -32,10 +33,10 @@ To meassure these values we use the ramp waveform and the oscilloscope in xy mod
     \end{figure}     
 Where the values we are looking for are found when the derivative is -1.
 
-Noise margin :It allows one to estimate the allowable noise voltage on the input of a 
+\textit{Noise margin}: It allows one to estimate the allowable noise voltage on the input of a 
 gate so that the output will not be affected. Noise margin is specified
  in terms of two parameters: the low noise margin $N_{L}$, and the high noise 
- margin $N_{H}$ . $N_{L}$ is defined as the difference in magnitude
+ margin $N_{H}$. $N_{L}$ is defined as the difference in magnitude
   between the maximum LOW input voltage and the maximum 
   LOW output voltage of the gate. That is, $N_{L}$ =$|V_{IL} - V_{OL}|$.
    Similarly, the value of $N_{H}$ is the difference in 
@@ -44,13 +45,13 @@ gate so that the output will not be affected. Noise margin is specified
    the gate. That is, $N_{H} =|V_{OH} - V_{IH}|.$ 
 
 
-The propagation delay  is the difference in time (calculated at 50
+\textit{Propagation delay}:  is the difference in time (calculated at 50
 \% of input-output transition), when output switches, after 
 application of input. It is different if the transition is
  from HIGH to LOW or form LOW to HIGH.
 
- Rise time is the time, during transition, when output switches from 10\% to 90\% of the maximum value.
-Fall time is the time when output switches from 90\% to 10\% of the maximum value.
+\textit{Rise time} is the time, during transition, when output switches from 10\% to 90\% of the maximum value.
+\textit{Fall time} is the time when output switches from 90\% to 10\% of the maximum value.
 
 In order to get the maximum output current, knowing that the
  load is a 1nF capacitor, with the oscilloscope we find out
@@ -59,7 +60,7 @@ In order to get the maximum output current, knowing that the
     i_{c}=C\frac{dV_{OUT}}{dt}
 \end{equation}
 The maximum current is when the derivative is maximum.
-\subsection*{a)1)no load}
+\subsection*{Case A1: RTL without load}
 $V_{OL}$=244mV ;
 $V_{OH}$=4,85V ; 
 $V_{IL}$=547mV ;
@@ -75,7 +76,7 @@ Propagation time (LOW to HIGH) = 520 ns.
 \newline
 There is not a maximum output current because there is no load.
 
-\subsection*{a)2)with load} 
+\subsection*{Case A2: RTL with capacitors load} 
 
 $V_{OL}$=384mV ; 
 $V_{OH}$=4,75V ; 
@@ -93,7 +94,7 @@ Propagation time (LOW to HIGH) = 656 ns
 Max current when input goes from LOW to HIGH: -9,38 mA
 \newline
 Max current when input goes from HIGH to LOW: 2,66 mA
-\subsection*{b)1)no load}
+\subsection*{Case B1: TTL without load}
 $V_{OL}$=100mV ; 
 $V_{OH}$=4,69V ; 
 $V_{IL}$=570mV ; 
@@ -111,7 +112,7 @@ It was not possible to determine because of the signal generator limitations
 (the square wave rise/fall time is $<$13ns)
 there is not a maximum output current because there is no load. 
 
-\subsection*{b)2)with load} 
+\subsection*{Case B2: TTL with capacitors load} 
 
 $V_{OL}$= 70mV ; 
 $V_{OH}$= 4,68V ; 
