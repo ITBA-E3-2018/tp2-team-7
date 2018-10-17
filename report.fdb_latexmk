@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1539742086 "report.tex" "report.pdf" "report" 1539742086
+["pdflatex"] 1539744229 "report.tex" "report.pdf" "report" 1539744229
   "/etc/texmf/web2c/texmf.cnf" 1520186656 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -185,6 +185,8 @@
   "data/Transistor_LogicLED.png" 1539735669 27408 bee185d0af83a85c08b87669dc8bc13e ""
   "data/Unit_Counter.png" 1539735669 34414 25631be414be5b8b61898828f84012fa ""
   "data/Unit_Detector.png" 1539735669 15189 3225775fa55de79a3d028cbe0e77f0d8 ""
+  "data/_sinc_contador07.png" 1539735669 30835 40513f3ec4902dfbe3c7ce1c4f21936e ""
+  "data/asinc_contador06.png" 1539735669 32495 8f84a9d34375b588a5933dd333f5596c ""
   "data/async.png" 1539739891 130397 b795774ac1b2b21d2e37ca5e3bba2466 ""
   "data/blockDiagram.png" 1539735669 49635 c44f8a087fabb566a758c64bcde9b93d ""
   "data/circuitLED.PDF" 1539735669 20490 f7e1b59a9b93878b92b757b38372ff0a ""
@@ -200,11 +202,11 @@
   "doc/ej3.tex" 1539735669 7557 a3af8c5ac24faa523df7f0598d9fa957 ""
   "doc/ej4.tex" 1539735669 998 6d589b7ce4c92e3d65bacea266b6ac7d ""
   "doc/ej6.tex" 1539735669 2485 8806a8c704577cf75339b7ef439ac89d ""
-  "doc/ej7.tex" 1539742085 1297 e95920c16b812481c6d77dc5844a95e8 ""
+  "doc/ej7.tex" 1539744217 2758 719f5602d2dcdb93840a2e91bbc9f878 ""
   "doc/ej8.tex" 1539735669 8956 41718be804f3b8fdb84827ad9699f55e ""
-  "report.aux" 1539741766 2851 f378542928d193a6be4005e39ff2f25e ""
+  "report.aux" 1539744229 8 a94a2480d3289e625eea47cd1b285758 ""
   "report.tex" 1539741144 967 fb63cb683022cd0f7d1698173845b141 ""
   (generated)
   "report.aux"
-  "report.pdf"
   "report.log"
+  "report.pdf"
