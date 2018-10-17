@@ -6,8 +6,8 @@ The configurations to analyze are shown below.
 
 \begin{figure}[H]
     \begin{centering}
-    \includegraphics[width=0.7\textwidth]{data/TTL_EJ5}
-    \includegraphics[width=0.7\textwidth]{data/CMOS_EJ5}
+    \includegraphics[width=0.3\textwidth]{data/TTL_EJ5}
+    \includegraphics[width=0.3\textwidth]{data/CMOS_EJ5}
     \par\end{centering}
     \caption{TTL AND gate and CMOS OR gate test circuits}
 \end{figure}
@@ -25,7 +25,12 @@ to a reference, so its not fixed in saturation mode, similar to what happened in
 
 Then, both technologies are connected as follows.
 
-%FIGURA
+\begin{figure}[H]
+    \begin{centering}
+    \includegraphics[width=0.7\textwidth]{data/MIX_EJ5}
+    \par\end{centering}
+    \caption{TTL AND gate and CMOS OR gate connected}
+\end{figure}
 
 The problem observed is the same as before: with the input pin floating, the output results on HIGH
 level voltage. But this connection has a problem regarding the voltage levels. From the examples used, 
@@ -33,7 +38,13 @@ according to Texas Instruments datasheets,
 in 74LS08 for the AND gate the $VOH_{MIN}=2V$ in the worst case and for the 74HC32 (OR gate) the $VIH_{MIN}=3.15V$.
 In the worst case, that can cause that although both inputs are in HIGH level, if the AND output is $2V$, 
 it will be considered as a $OV$ in the OR gate, showing $0V$ at the final output.
+\newpage
 The simplest solution may be use both gates from the same technology, but it can be fixed with a 
 level shifter circuit, implemented with a PNP transistor as shown below.
 
-%FIGURA
+\begin{figure}[H]
+    \begin{centering}
+    \includegraphics[width=0.4\textwidth]{data/MIXFIX_EJ5}
+    \par\end{centering}
+    \caption{Level shifter with an PNP transistor}
+\end{figure}
