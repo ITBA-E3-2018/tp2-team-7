@@ -10,7 +10,7 @@ module simple_tb;
    initial
      begin
         // vcd dump
-        $dumpfile("retardo.vcd");
+        $dumpfile("pulse.vcd");
         // the variable 's' is what GTKWave will label the graphs with
         $dumpvars(0, s);
         //$monitor("SR_ECHO is %b, ", SR_ECHO);
@@ -20,10 +20,12 @@ module simple_tb;
 	#0 SR_ECHO = 0;
 
         #500 SR_ECHO = 1;
-        //#50 A = 4'b0000;
-        #1000 $finish;
+	#30 SR_ECHO = 0;
+        
+	//#50 A = 4'b0000;
+        #495 $finish;
      end
 
    // stap of module
-   end_of_measure s(SR_ECHO, RESET, MEAS_EN);
+   pulse s(SR_ECHO, RESET, MEAS_EN);
 endmodule

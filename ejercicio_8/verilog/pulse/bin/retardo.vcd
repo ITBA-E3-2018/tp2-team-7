@@ -1,0 +1,38 @@
+$date
+	Wed Oct 17 10:03:53 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simple_tb $end
+$scope module s $end
+$var wire 1 ! RESET $end
+$var wire 1 " SR_ECHO $end
+$var wire 1 # partial $end
+$var wire 1 $ p5 $end
+$var wire 1 % p4 $end
+$var wire 1 & p3 $end
+$var wire 1 ' p2 $end
+$var wire 1 ( p1 $end
+$var wire 1 ) MEAS_EN $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+1"
+0!
+$end
+#500000
+0"
+#1500000
