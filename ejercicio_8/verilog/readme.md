@@ -2,7 +2,11 @@ Verilog tests for task 8
 
 - Tests done:
 
-delay test
+- pulse
+- trigger_enable
+- bcd2digit
+
+We ran out of time to do a bcd counter test. Sorry about that
 
 Instructions:
 - Run make on test directory
