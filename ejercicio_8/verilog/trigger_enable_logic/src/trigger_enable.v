@@ -18,10 +18,13 @@ module trigger_enable_logic(
 	output MEAS_RESET;
 
 	reg Q; // flip flop register
+	wire Qn;
+
 	wire CLK;
 	wire MEAS_EN;
 
 	pulse my_meas(ECHO,1'b0,MEAS_EN);	
+	assign Qn = !Q;
 
 	assign SR_TRIG = TRIG_EN && TRIG && !Q;
 	assign MEAS_READY = !Q;

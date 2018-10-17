@@ -25,8 +25,12 @@ module simple_tb;
 	#0 ECHO = 0;
 
 	for (it1 = 0;it1 <= 1000;it1=it1+1) begin
-        	#1 TRIG = 1;
-		
+		if (it1 % 10 == 5) begin        	
+			#1 TRIG = 1;
+		end
+		if (it1 % 10 == 0) begin
+			#1 TRIG = 0;
+		end
 		if (it1 % 50 == 25) begin
 			#0  ECHO = 0;
 		end
