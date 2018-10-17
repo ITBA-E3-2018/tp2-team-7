@@ -1,0 +1,62 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=2cm, right=2cm, top=2cm]{geometry}
+\usepackage{karnaugh-map}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage{float}
+\usepackage{lipsum}
+\usetikzlibrary{arrows, shapes.gates.logic.US, calc}
+\tikzstyle{branch}=[fill, shape=circle, minimum size=3pt, inner sep=0pt]
+    
+\begin{document}
+\section*{Task 2}
+
+    In this task we have three different types of nor gates:
+
+LS family: gates made with TTL technology with Schottky transistors.
+HC family: made with CMOS technology, incompatible with TTL circuits.
+HCT family: similar to HC but they are compatible with TTL.
+
+Searching for the logic levels of each gate we found that:
+
+*dibujo*
+
+We can notice that a TTL gate can be connected to the output of a HC gate, but not  otherwise because the minimum output voltage level of the TTL (VOH min) is below the minimum input voltage level CMOS (VIH min) .
+In the case of the HCT, as we said before, the logic levels are compatible with TTL gate. 
+
+\section*{Fan out}
+
+Another fundamental aspect that must be taken into account is the maximum current that
+provides or absorbs a logic gate. These characteristics are especially
+important when the technology of the components is TTL, since bipolar transistors are used and it is necessary to ensure the saturation or cutting state of the
+them. Depending on the relationship between maximum output current and
+input current, we can connect more or less circuits to a certain logic gate. This maximum number of circuits that I can connect in parallel to the output of a gate is called Fan-Out.
+Here the CMOS families present a great advantage thanks to the little
+input current (1 uA), which causes the fan-out to be very high. 
+On the other hand, if we want to connect TTL gates 
+the output capacity will be lower due to the fact that the input current is much higher (1mA).
+
+
+
+\section*{Results}
+
+LS to HC: from 0,75V to 0,8V there was an invalid output
+\newline
+HC to LS: from 2,05V to 2,17V there was an invalid output
+\newline
+LS to HCT: from 0,8V to 0,9V there was an invalid output
+\newline
+HCT to LS: form 0,85V to 0,91V there was an invalid output
+\newline
+
+Case a:
+\newline
+The input range where the output was invalid is inside
+ the range of voltages allowed for the logic 0 of the LS gate, 
+ so the output should be a 0. Here we can see the incompatibility 
+ between the gates.
+Case b, c, d: all the input ranges where the output was invalid
+ belong to the invalid input voltages of the gate that is connected 
+ first. 
+
+\end{document}
