@@ -1,15 +1,3 @@
-\documentclass[a4paper,12pt]{article}
-\usepackage[left=2cm, right=2cm, top=2cm]{geometry}
-\usepackage{karnaugh-map}
-\usepackage[utf8]{inputenc}
-\usepackage{amssymb,amsmath}
-\usepackage{float}
-\usepackage{lipsum}
-\usetikzlibrary{arrows, shapes.gates.logic.US, calc}
-\tikzstyle{branch}=[fill, shape=circle, minimum size=3pt, inner sep=0pt]
-    
-\begin{document}
-
 \section*{Task 1}
 NOT gates with BJT transistors (NPN)
 
@@ -25,7 +13,7 @@ b) TTL
 
 \begin{figure}[H] 
 \begin{center}
-\includegraphics[width=8.25cm,height=8cm]{data/imax1.png}
+\includegraphics[width=8.25cm,height=8cm]{imax1.png}
 \end{center}
 \caption{}
 \label{fig:measures}
@@ -36,7 +24,7 @@ Where $V_{IH}$: minimum HIGH input voltage, $V_{IL}$: maximum LOW input voltage,
 To meassure these values we use the ramp waveform and the oscilloscope in xy mode so we can see something like this:
 \begin{figure}[H] 
     \begin{center}
-    \includegraphics[width=8.25cm,height=8cm]{data/xy_ttl_bjt.png}
+    \includegraphics[width=8.25cm,height=8cm]{xy_ttl_bjt.png}
     \end{center}
     \caption{}
     \label{fig:measures}
@@ -146,5 +134,3 @@ There are 2 different currents because when the transistor
  NPN transistor that has no resistance. And in cut off
   mode the capacitor charges with the resistance.
 
-
-\end{document}
