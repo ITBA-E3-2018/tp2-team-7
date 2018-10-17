@@ -158,12 +158,26 @@ unlikely that such delays would occur.
 \section*{Measures obtained from NAND implementation}
 \begin{figure}[H] 
 \begin{center}
-\includegraphics[width=8.25cm,height=8cm]{data/000to001.png}
-\includegraphics[width=8.25cm,height=8cm]{data/001to011.png}
+\includegraphics[width=0.45\textwidth]{data/000to001.png}
+\includegraphics[width=0.45\textwidth]{data/000to001_11.png}
 \end{center}
-\caption{Dynamic hazard and static 1-hazard respectively}
-\label{fig:measures}
+\caption{Dynamic hazards}
+\label{fig:measure_dynamic}
 \end{figure} 
+In order to get the measures it was required to trigger many times until one of these 
+glitches appear. It can be seen in Figure~\ref{fig:measure_dynamic} that glitches caused by dynamic hazards doesn't share the same time interval in spite of being the same transition
+(from 000 to 001), this gives us some idea of delay propagation. 
+
+\begin{figure}[H] 
+\begin{center}
+\includegraphics[width=0.45\textwidth]{data/001to011.png}
+\end{center}
+\caption{Static 1-hazard}
+\label{fig:measure_static}
+\end{figure} 
+The measure in Figure~\ref{fig:measure_static} was made with the transition 001 to 011 and the
+ trigger configured to get the negative-edge so these glitches can be found.
+
 
 \section*{Conclusion}
 In order to remove glitches it is needed to add redundant groups in the
