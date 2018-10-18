@@ -22,13 +22,13 @@ In this section are implemented NOT gates with BJT transistors (NPN), in two dif
 \end{figure} 
 
 Where $V_{IH}$: minimum HIGH input voltage, $V_{IL}$: maximum LOW input voltage, $V_{OH}$: minimum HIGH output voltage, $V_{OL}$: maximum LOW output voltage.
-
+\newpage
 To measure these values we use the ramp waveform and the oscilloscope in xy mode so we can see something like this:
 \begin{figure}[H] 
     \begin{center}
     \includegraphics[width=8.25cm,height=8cm]{data/xy_ttl_bjt.png}
     \end{center}
-    \caption{}
+    \caption{Characteristic logical levels}
     \label{fig:measures}
     \end{figure}     
 Where the values we are looking for are found when the derivative is -1.
@@ -60,6 +60,7 @@ In order to get the maximum output current, knowing that the
     i_{c}=C\frac{dV_{OUT}}{dt}
 \end{equation}
 The maximum current is when the derivative is maximum.
+
 \subsection*{Case A1: RTL without load}
 $V_{OL}$=244mV ;
 $V_{OH}$=4,85V ; 
