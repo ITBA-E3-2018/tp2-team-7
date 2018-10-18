@@ -1,7 +1,7 @@
 \newpage
 \section*{Task 1}
-In this section are implemented NOT gates with BJT transistors (NPN), in two different configurations,
- as shown below.
+In this section NOT gates were implemented with BJT transistors (NPN). We used two different configurations,
+ as shown below. 
 
 \begin{figure}[H] 
 \begin{center}
@@ -13,17 +13,10 @@ In this section are implemented NOT gates with BJT transistors (NPN), in two dif
 
 
 \section*{Measures}
-\begin{figure}[H] 
-\begin{center}
-\includegraphics[width=8.25cm,height=8cm]{data/imax1.png}
-\end{center}
-\caption{TTL with capacitors load. CH1: Vin - CH2: Vout - MATH: Derivate of Vout}
-\label{fig:measures}
-\end{figure} 
 
-Where $V_{IH}$: minimum HIGH input voltage, $V_{IL}$: maximum LOW input voltage, $V_{OH}$: minimum HIGH output voltage, $V_{OL}$: maximum LOW output voltage.
+First we meassured the \textit{logic levels}, where $V_{IH}$: minimum HIGH input voltage, $V_{IL}$: maximum LOW input voltage, $V_{OH}$: minimum HIGH output voltage, $V_{OL}$: maximum LOW output voltage.
 \newpage
-To measure these values we use the ramp waveform and the oscilloscope in xy mode so we can see something like this:
+To measure these values we use the ramp waveform and the oscilloscope in xy mode:
 \begin{figure}[H] 
     \begin{center}
     \includegraphics[width=8.25cm,height=8cm]{data/xy_ttl_bjt.png}
@@ -31,7 +24,7 @@ To measure these values we use the ramp waveform and the oscilloscope in xy mode
     \caption{Characteristic logical levels}
     \label{fig:measures}
     \end{figure}     
-Where the values we are looking for are found when the derivative is -1.
+As is shown in the picture, the values we are looking for are found in the ponts where the derivative is -1.
 
 \textit{Noise margin}: It allows one to estimate the allowable noise voltage on the input of a 
 gate so that the output will not be affected. Noise margin is specified
@@ -60,6 +53,14 @@ In order to get the maximum output current, knowing that the
     i_{c}=C\frac{dV_{OUT}}{dt}
 \end{equation}
 The maximum current is when the derivative is maximum.
+
+\begin{figure}[H] 
+\begin{center}
+\includegraphics[width=8.25cm,height=8cm]{data/imax1.png}
+\end{center}
+\caption{TTL with capacitors load. CH1: Vin - CH2: Vout - MATH: Derivate of Vout}
+\label{fig:measures}
+\end{figure} 
 
 \subsection*{Case A1: RTL without load}
 $V_{OL}$=244mV ;
