@@ -1,4 +1,4 @@
-PWD /home/marce/Escritorio/Electro3_TPS/tp2-team-7
+PWD /home/newtonis/tp2-team-7
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -211,7 +211,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 INPUT LatexParaTP/BaseKarnaugh.tex
 INPUT LatexParaTP/BaseKarnaugh.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
