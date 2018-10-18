@@ -2,7 +2,7 @@
 tp2-team-7 created by GitHub Classroom
 TP2 - Electrónica III
 
-The only three folders with all project content that are 
+There are only three folders with all project content that are 
 - doc: contains project tex files for each task
 - data: contains project aditional resources (images, pdfs) files
 - ejercicio_8/verilog: contains the verilog codes for task 8.

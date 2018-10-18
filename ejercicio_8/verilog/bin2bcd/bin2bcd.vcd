@@ -1,0 +1,52 @@
+$date
+	Wed Oct 17 20:48:55 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simple_tb $end
+$scope module s $end
+$var wire 8 ! DIGITS [7:0] $end
+$var wire 4 " NUMBER [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx "
+bx !
+$end
+#1000000000000
+b1111110 !
+b0 "
+#2000000000000
+b110000 !
+b1 "
+#3000000000000
+b1101101 !
+b10 "
+#4000000000000
+b1111011 !
+b11 "
+#5000000000000
+b110011 !
+b100 "
+#6000000000000
+b1010011 !
+b101 "
+#7000000000000
+b1011111 !
+b110 "
+#8000000000000
+b1110011 !
+b111 "
+#9000000000000
+b1111111 !
+b1000 "
+#10000000000000
+b1110011 !
+b1001 "
+#505000000000000
