@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1539829873 "report.tex" "report.pdf" "report" 1539829873
+["pdflatex"] 1539830237 "report.tex" "report.pdf" "report" 1539830237
   "/etc/texmf/web2c/texmf.cnf" 1519572295 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -223,7 +223,7 @@
   "data/trigerEnable_Time.png" 1539719367 40332 e182439bc720664d9e819a60a57a0f72 ""
   "data/trigger_enable.png" 1539794147 9223 107b868dc18dacd9f73837e5385d6bcc ""
   "data/xy_ttl_bjt.png" 1539819635 22704 373362d668479cce5cf654c5dfa91443 ""
-  "doc/ej1.tex" 1539829867 4408 0643f2497c55ec68e3dc286dac231981 ""
+  "doc/ej1.tex" 1539830234 4397 b6501e6cfffacf59dbd6a121626d6ff9 ""
   "doc/ej2.tex" 1539829230 2834 b2815bd7204f0cbc1fe9f85e389fe7ce ""
   "doc/ej3.tex" 1539819635 8588 ef63086f9d9b127bd006b44b8e7a7315 ""
   "doc/ej4.tex" 1539775688 3346 598853f13641a34cbc8537846a113464 ""
@@ -231,10 +231,10 @@
   "doc/ej6.tex" 1539819635 3297 d4823229db446029877136e98a3f6734 ""
   "doc/ej7.tex" 1539829230 2770 3719fab22984df809db46ba7143c960a ""
   "doc/ej8.tex" 1539829230 9182 7147a357a3ead6f065af201ecfd97bdf ""
-  "report.aux" 1539829867 5026 8756a074387e72bb2888139bee5f3ea8 ""
+  "report.aux" 1539830215 5026 8756a074387e72bb2888139bee5f3ea8 ""
   "report.tex" 1539819635 487 4e8533943e175c52e5be1dfa67378b28 ""
   (generated)
-  "report.toc"
-  "report.aux"
-  "report.pdf"
   "report.log"
+  "report.toc"
+  "report.pdf"
+  "report.aux"

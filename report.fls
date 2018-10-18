@@ -322,6 +322,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT data/1total.png
 INPUT ./data/1total.png
 INPUT ./data/1total.png
+INPUT data/xy_ttl_bjt.png
+INPUT ./data/xy_ttl_bjt.png
+INPUT ./data/xy_ttl_bjt.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
@@ -329,16 +332,13 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmii.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
-INPUT data/xy_ttl_bjt.png
-INPUT ./data/xy_ttl_bjt.png
-INPUT ./data/xy_ttl_bjt.png
 INPUT data/imax1.png
 INPUT ./data/imax1.png
 INPUT ./data/imax1.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futsy.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm

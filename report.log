@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.26)  17 OCT 2018 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.26)  17 OCT 2018 23:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1396,8 +1396,15 @@ File: data/1total.png Graphic file (type png)
 <use data/1total.png>
 Package pdftex.def Info: data/1total.png  used on input line 8. on input line 8
 .
-Package pdftex.def Info: Requested size: 386.95894pt x 152.80492pt on input lin
-e 8.
+Package pdftex.def Info: Requested size: 338.5863pt x 133.70526pt on input line
+ 8.
+<data/xy_ttl_bjt.png, id=15, 1027.84pt x 825.0825pt>
+File: data/xy_ttl_bjt.png Graphic file (type png)
+<use data/xy_ttl_bjt.png>
+Package pdftex.def Info: data/xy_ttl_bjt.png  used on input line 22. on input l
+ine 22.
+Package pdftex.def Info: Requested size: 241.84842pt x 194.13362pt on input lin
+e 22.
 
 
 Package Fancyhdr Warning: \headheight is too small (14.22636pt): 
@@ -1405,14 +1412,7 @@ Package Fancyhdr Warning: \headheight is too small (14.22636pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1 <./data/1total.png>]
-<data/xy_ttl_bjt.png, id=20, 1027.84pt x 825.0825pt>
-File: data/xy_ttl_bjt.png Graphic file (type png)
-<use data/xy_ttl_bjt.png>
-Package pdftex.def Info: data/xy_ttl_bjt.png  used on input line 22. on input l
-ine 22.
-Package pdftex.def Info: Requested size: 234.73576pt x 227.6223pt on input line
- 22.
+[1 <./data/1total.png> <./data/xy_ttl_bjt.png>]
 <data/imax1.png, id=21, 1027.84pt x 825.0825pt>
 File: data/imax1.png Graphic file (type png)
 <use data/imax1.png>
@@ -1420,10 +1420,9 @@ Package pdftex.def Info: data/imax1.png  used on input line 59. on input line 5
 9.
 Package pdftex.def Info: Requested size: 234.73576pt x 227.6223pt on input line
  59.
- [2 <./data/xy_ttl_bjt.png>]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 65.
- [3 <./data/imax1.png (PNG copy)>]) (./doc/ej2.tex [4]
+ [2 <./data/imax1.png (PNG copy)>]) (./doc/ej2.tex [3]
 Underfull \hbox (badness 10000) in paragraph at lines 46--54
 
  []
@@ -1441,149 +1440,149 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[5]) (./doc/ej3.tex [6]
-<data/karnaugh.pdf, id=38, pagebox=cropbox, 143.81027pt x 91.87123pt>
+[4]) (./doc/ej3.tex [5]
+<data/karnaugh.pdf, id=34, pagebox=cropbox, 143.81027pt x 91.87123pt>
 File: data/karnaugh.pdf Graphic file (type pdf)
 <use data/karnaugh.pdf>
 Package pdftex.def Info: data/karnaugh.pdf  used on input line 17. on input lin
 e 17.
 Package pdftex.def Info: Requested size: 143.8099pt x 91.87099pt on input line 
 17.
- [7 <./data/karnaugh.pdf>]
-<data/hazard.png, id=48, 457.71pt x 283.0575pt>
+ [6 <./data/karnaugh.pdf>]
+<data/hazard.png, id=45, 457.71pt x 283.0575pt>
 File: data/hazard.png Graphic file (type png)
 <use data/hazard.png>
 Package pdftex.def Info: data/hazard.png  used on input line 131. on input line
  131.
 Package pdftex.def Info: Requested size: 217.6621pt x 134.60486pt on input line
  131.
-<data/glitch.png, id=49, 363.3575pt x 454.69875pt>
+<data/glitch.png, id=46, 363.3575pt x 454.69875pt>
 File: data/glitch.png Graphic file (type png)
 <use data/glitch.png>
 Package pdftex.def Info: data/glitch.png  used on input line 146. on input line
  146.
 Package pdftex.def Info: Requested size: 170.71706pt x 227.62633pt on input lin
 e 146.
- [8 <./data/hazard.png> <./data/glitch.png>]
-<data/000to001.png, id=55, 1027.84pt x 825.0825pt>
+ [7 <./data/hazard.png> <./data/glitch.png>]
+<data/000to001.png, id=52, 1027.84pt x 825.0825pt>
 File: data/000to001.png Graphic file (type png)
 <use data/000to001.png>
 Package pdftex.def Info: data/000to001.png  used on input line 161. on input li
 ne 161.
 Package pdftex.def Info: Requested size: 217.6621pt x 174.72026pt on input line
  161.
-<data/000to001_11.png, id=56, 1027.84pt x 825.0825pt>
+<data/000to001_11.png, id=53, 1027.84pt x 825.0825pt>
 File: data/000to001_11.png Graphic file (type png)
 <use data/000to001_11.png>
 Package pdftex.def Info: data/000to001_11.png  used on input line 162. on input
  line 162.
 Package pdftex.def Info: Requested size: 217.6621pt x 174.72026pt on input line
  162.
-<data/001to011.png, id=57, 1027.84pt x 825.0825pt>
+<data/001to011.png, id=54, 1027.84pt x 825.0825pt>
 File: data/001to011.png Graphic file (type png)
 <use data/001to011.png>
 Package pdftex.def Info: data/001to011.png  used on input line 173. on input li
 ne 173.
 Package pdftex.def Info: Requested size: 217.6621pt x 174.72026pt on input line
  173.
-<data/karnaugh_improved.pdf, id=58, pagebox=cropbox, 143.81027pt x 91.87123pt>
+<data/karnaugh_improved.pdf, id=55, pagebox=cropbox, 143.81027pt x 91.87123pt>
 File: data/karnaugh_improved.pdf Graphic file (type pdf)
 <use data/karnaugh_improved.pdf>
 Package pdftex.def Info: data/karnaugh_improved.pdf  used on input line 187. on
  input line 187.
 Package pdftex.def Info: Requested size: 143.8099pt x 91.87099pt on input line 
 187.
- [9 <./data/000to001.png (PNG copy)> <./data/000to001_11.png (PNG copy)> <./dat
-a/001to011.png (PNG copy)>]) (./doc/ej4.tex [10 <./data/karnaugh_improved.pdf>]
-<data/circuitLED.PDF, id=69, pagebox=cropbox, 404.88263pt x 368.74763pt>
+ [8 <./data/000to001.png (PNG copy)> <./data/000to001_11.png (PNG copy)> <./dat
+a/001to011.png (PNG copy)>]) (./doc/ej4.tex [9 <./data/karnaugh_improved.pdf>]
+<data/circuitLED.PDF, id=66, pagebox=cropbox, 404.88263pt x 368.74763pt>
 File: data/circuitLED.PDF Graphic file (type pdf)
 <use data/circuitLED.PDF>
 Package pdftex.def Info: data/circuitLED.PDF  used on input line 13. on input l
 ine 13.
 Package pdftex.def Info: Requested size: 338.5863pt x 308.37299pt on input line
  13.
- [11 <./data/circuitLED.PDF>]
+ [10 <./data/circuitLED.PDF>]
 Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
-<data/ej4_gate1.png, id=77, 1027.84pt x 825.0825pt>
+<data/ej4_gate1.png, id=74, 1027.84pt x 825.0825pt>
 File: data/ej4_gate1.png Graphic file (type png)
 <use data/ej4_gate1.png>
 Package pdftex.def Info: data/ej4_gate1.png  used on input line 51. on input li
 ne 51.
 Package pdftex.def Info: Requested size: 237.0141pt x 190.25598pt on input line
  51.
-<data/ej4_circuit.png, id=78, 1027.84pt x 825.0825pt>
+<data/ej4_circuit.png, id=75, 1027.84pt x 825.0825pt>
 File: data/ej4_circuit.png Graphic file (type png)
 <use data/ej4_circuit.png>
 Package pdftex.def Info: data/ej4_circuit.png  used on input line 52. on input 
 line 52.
 Package pdftex.def Info: Requested size: 237.0141pt x 190.25598pt on input line
  52.
-<data/ej4_circuit100k1.png, id=79, 1027.84pt x 825.0825pt>
+<data/ej4_circuit100k1.png, id=76, 1027.84pt x 825.0825pt>
 File: data/ej4_circuit100k1.png Graphic file (type png)
 <use data/ej4_circuit100k1.png>
 Package pdftex.def Info: data/ej4_circuit100k1.png  used on input line 74. on i
 nput line 74.
 Package pdftex.def Info: Requested size: 237.0141pt x 190.25598pt on input line
  74.
-<data/ej4_circuit100kcap.png, id=80, 1027.84pt x 825.0825pt>
+<data/ej4_circuit100kcap.png, id=77, 1027.84pt x 825.0825pt>
 File: data/ej4_circuit100kcap.png Graphic file (type png)
 <use data/ej4_circuit100kcap.png>
 Package pdftex.def Info: data/ej4_circuit100kcap.png  used on input line 75. on
  input line 75.
 Package pdftex.def Info: Requested size: 237.0141pt x 190.25598pt on input line
  75.
-[12 <./data/ej4_gate1.png (PNG copy)> <./data/ej4_circuit.png (PNG copy)> <./da
+[11 <./data/ej4_gate1.png (PNG copy)> <./data/ej4_circuit.png (PNG copy)> <./da
 ta/ej4_circuit100k1.png (PNG copy)> <./data/ej4_circuit100kcap.png (PNG copy)>]
-<data/ej4_circuit100ksinc.png, id=85, 1027.84pt x 825.0825pt>
+<data/ej4_circuit100ksinc.png, id=81, 1027.84pt x 825.0825pt>
 File: data/ej4_circuit100ksinc.png Graphic file (type png)
 <use data/ej4_circuit100ksinc.png>
 Package pdftex.def Info: data/ej4_circuit100ksinc.png  used on input line 88. o
 n input line 88.
 Package pdftex.def Info: Requested size: 237.0141pt x 190.25598pt on input line
  88.
-<data/ej4_circuit100kconc1.png, id=86, 1027.84pt x 825.0825pt>
+<data/ej4_circuit100kconc1.png, id=82, 1027.84pt x 825.0825pt>
 File: data/ej4_circuit100kconc1.png Graphic file (type png)
 <use data/ej4_circuit100kconc1.png>
 Package pdftex.def Info: data/ej4_circuit100kconc1.png  used on input line 89. 
 on input line 89.
 Package pdftex.def Info: Requested size: 237.0141pt x 190.25598pt on input line
  89.
-) (./doc/ej5.tex [13 <./data/ej4_circuit100ksinc.png (PNG copy)> <./data/ej4_ci
+) (./doc/ej5.tex [12 <./data/ej4_circuit100ksinc.png (PNG copy)> <./data/ej4_ci
 rcuit100kconc1.png (PNG copy)>]
-<data/TTL_EJ5.png, id=90, 360.1455pt x 193.32225pt>
+<data/TTL_EJ5.png, id=87, 360.1455pt x 193.32225pt>
 File: data/TTL_EJ5.png Graphic file (type png)
 <use data/TTL_EJ5.png>
 Package pdftex.def Info: data/TTL_EJ5.png  used on input line 9. on input line 
 9.
 Package pdftex.def Info: Requested size: 145.11052pt x 77.89389pt on input line
  9.
-<data/CMOS_EJ5.png, id=91, 361.35pt x 246.32025pt>
+<data/CMOS_EJ5.png, id=88, 361.35pt x 246.32025pt>
 File: data/CMOS_EJ5.png Graphic file (type png)
 <use data/CMOS_EJ5.png>
 Package pdftex.def Info: data/CMOS_EJ5.png  used on input line 10. on input lin
 e 10.
 Package pdftex.def Info: Requested size: 145.11052pt x 98.91724pt on input line
  10.
-<data/MIX_EJ5.png, id=92, 962.99776pt x 390.86024pt>
+<data/MIX_EJ5.png, id=89, 962.99776pt x 390.86024pt>
 File: data/MIX_EJ5.png Graphic file (type png)
 <use data/MIX_EJ5.png>
 Package pdftex.def Info: data/MIX_EJ5.png  used on input line 30. on input line
  30.
 Package pdftex.def Info: Requested size: 338.5863pt x 137.42339pt on input line
  30.
- [14 <./data/TTL_EJ5.png> <./data/CMOS_EJ5.png> <./data/MIX_EJ5.png>]
-<data/MIXFIX_EJ5.png, id=96, 643.203pt x 490.83376pt>
+ [13 <./data/TTL_EJ5.png> <./data/CMOS_EJ5.png> <./data/MIX_EJ5.png>]
+<data/MIXFIX_EJ5.png, id=93, 643.203pt x 490.83376pt>
 File: data/MIXFIX_EJ5.png Graphic file (type png)
 <use data/MIXFIX_EJ5.png>
 Package pdftex.def Info: data/MIXFIX_EJ5.png  used on input line 47. on input l
 ine 47.
 Package pdftex.def Info: Requested size: 193.47577pt x 147.64072pt on input lin
 e 47.
-) (./doc/ej6.tex [15 <./data/MIXFIX_EJ5.png>]
-<data/latchSR.PDF, id=100, pagebox=cropbox, 224.20763pt x 151.93764pt>
+) (./doc/ej6.tex [14 <./data/MIXFIX_EJ5.png>]
+<data/latchSR.PDF, id=97, pagebox=cropbox, 224.20763pt x 151.93764pt>
 File: data/latchSR.PDF Graphic file (type pdf)
 <use data/latchSR.PDF>
 Package pdftex.def Info: data/latchSR.PDF  used on input line 14. on input line
@@ -1602,16 +1601,16 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 20.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 20.
- [16 <./data/latchSR.PDF>]
-<data/dflipflop.pdf, id=108, pagebox=cropbox, 549.42264pt x 296.47763pt>
+ [15 <./data/latchSR.PDF>]
+<data/dflipflop.pdf, id=105, pagebox=cropbox, 549.42264pt x 296.47763pt>
 File: data/dflipflop.pdf Graphic file (type pdf)
 <use data/dflipflop.pdf>
 Package pdftex.def Info: data/dflipflop.pdf  used on input line 59. on input li
 ne 59.
 Package pdftex.def Info: Requested size: 386.95894pt x 208.81316pt on input lin
 e 59.
-) (./doc/ej7.tex [17 <./data/dflipflop.pdf>]
-<data/async.png, id=116, 471.2299pt x 111.72353pt>
+) (./doc/ej7.tex [16 <./data/dflipflop.pdf>]
+<data/async.png, id=113, 471.2299pt x 111.72353pt>
 File: data/async.png Graphic file (type png)
 <use data/async.png>
 Package pdftex.def Info: data/async.png  used on input line 11. on input line 1
@@ -1623,7 +1622,7 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<data/sync.png, id=117, 461.15143pt x 157.19954pt>
+<data/sync.png, id=114, 461.15143pt x 157.19954pt>
 File: data/sync.png Graphic file (type png)
 <use data/sync.png>
 Package pdftex.def Info: data/sync.png  used on input line 27. on input line 27
@@ -1635,24 +1634,24 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 27--28
  [][] 
  []
 
-[18 <./data/async.png> <./data/sync.png>]
-<data/asinc_contador06.png, id=124, 1027.84pt x 825.0825pt>
+[17 <./data/async.png> <./data/sync.png>]
+<data/asinc_contador06.png, id=120, 1027.84pt x 825.0825pt>
 File: data/asinc_contador06.png Graphic file (type png)
 <use data/asinc_contador06.png>
 Package pdftex.def Info: data/asinc_contador06.png  used on input line 40. on i
 nput line 40.
 Package pdftex.def Info: Requested size: 217.6621pt x 174.72026pt on input line
  40.
-<data/_sinc_contador07.png, id=125, 1027.84pt x 825.0825pt>
+<data/_sinc_contador07.png, id=121, 1027.84pt x 825.0825pt>
 File: data/_sinc_contador07.png Graphic file (type png)
 <use data/_sinc_contador07.png>
 Package pdftex.def Info: data/_sinc_contador07.png  used on input line 41. on i
 nput line 41.
 Package pdftex.def Info: Requested size: 217.6621pt x 174.72026pt on input line
  41.
-) (./doc/ej8.tex [19 <./data/asinc_contador06.png (PNG copy)> <./data/_sinc_con
+) (./doc/ej8.tex [18 <./data/asinc_contador06.png (PNG copy)> <./data/_sinc_con
 tador07.png (PNG copy)>]
-<data/blockDiagram.png, id=129, 1154.81438pt x 350.05782pt>
+<data/blockDiagram.png, id=126, 1154.81438pt x 350.05782pt>
 File: data/blockDiagram.png Graphic file (type png)
 <use data/blockDiagram.png>
 Package pdftex.def Info: data/blockDiagram.png  used on input line 13. on input
@@ -1664,15 +1663,15 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-<data/trigerEnable_Time.png, id=130, 285.2256pt x 145.14224pt>
+<data/trigerEnable_Time.png, id=127, 285.2256pt x 145.14224pt>
 File: data/trigerEnable_Time.png Graphic file (type png)
 <use data/trigerEnable_Time.png>
 Package pdftex.def Info: data/trigerEnable_Time.png  used on input line 35. on 
 input line 35.
 Package pdftex.def Info: Requested size: 338.5863pt x 172.29839pt on input line
  35.
-[20 <./data/blockDiagram.png> <./data/trigerEnable_Time.png>]
-<data/trig_enable.png, id=136, 1011.17775pt x 510.10574pt>
+[19 <./data/blockDiagram.png> <./data/trigerEnable_Time.png>]
+<data/trig_enable.png, id=133, 1011.17775pt x 510.10574pt>
 File: data/trig_enable.png Graphic file (type png)
 <use data/trig_enable.png>
 Package pdftex.def Info: data/trig_enable.png  used on input line 47. on input 
@@ -1684,31 +1683,31 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
-<data/CLK_time.png, id=137, 289.20045pt x 84.91725pt>
+<data/CLK_time.png, id=134, 289.20045pt x 84.91725pt>
 File: data/CLK_time.png Graphic file (type png)
 <use data/CLK_time.png>
 Package pdftex.def Info: data/CLK_time.png  used on input line 76. on input lin
 e 76.
 Package pdftex.def Info: Requested size: 314.39998pt x 92.31955pt on input line
  76.
-[21 <./data/trig_enable.png>]
-<data/Unit_Detector.png, id=142, 404.10976pt x 107.2005pt>
+[20 <./data/trig_enable.png>]
+<data/Unit_Detector.png, id=139, 404.10976pt x 107.2005pt>
 File: data/Unit_Detector.png Graphic file (type png)
 <use data/Unit_Detector.png>
 Package pdftex.def Info: data/Unit_Detector.png  used on input line 86. on inpu
 t line 86.
 Package pdftex.def Info: Requested size: 290.22105pt x 76.99127pt on input line
  86.
-<data/Unit_Counter.png, id=143, 457.71pt x 377.61075pt>
+<data/Unit_Counter.png, id=140, 457.71pt x 377.61075pt>
 File: data/Unit_Counter.png Graphic file (type png)
 <use data/Unit_Counter.png>
 Package pdftex.def Info: data/Unit_Counter.png  used on input line 103. on inpu
 t line 103.
 Package pdftex.def Info: Requested size: 241.84842pt x 199.52197pt on input lin
 e 103.
- [22 <./data/CLK_time.png> <./data/Unit_Detector.png> <./data/Unit_Counter.png>
+ [21 <./data/CLK_time.png> <./data/Unit_Detector.png> <./data/Unit_Counter.png>
 ]
-<data/Meas_End.png, id=148, 1043.69925pt x 143.93774pt>
+<data/Meas_End.png, id=145, 1043.69925pt x 143.93774pt>
 File: data/Meas_End.png Graphic file (type png)
 <use data/Meas_End.png>
 Package pdftex.def Info: data/Meas_End.png  used on input line 116. on input li
@@ -1720,7 +1719,7 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
-<data/pullDown_Switch.png, id=149, 423.38174pt x 211.38976pt>
+<data/pullDown_Switch.png, id=146, 423.38174pt x 211.38976pt>
 File: data/pullDown_Switch.png Graphic file (type png)
 <use data/pullDown_Switch.png>
 Package pdftex.def Info: data/pullDown_Switch.png  used on input line 132. on i
@@ -1729,23 +1728,23 @@ Package pdftex.def Info: Requested size: 241.84842pt x 120.75143pt on input lin
 e 132.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 137.
-<data/trigger_enable.png, id=150, 483.8075pt x 171.64125pt>
+<data/trigger_enable.png, id=147, 483.8075pt x 171.64125pt>
 File: data/trigger_enable.png Graphic file (type png)
 <use data/trigger_enable.png>
 Package pdftex.def Info: data/trigger_enable.png  used on input line 140. on in
 put line 140.
 Package pdftex.def Info: Requested size: 241.84842pt x 85.80206pt on input line
  140.
-[23 <./data/Meas_End.png> <./data/pullDown_Switch.png> <./data/trigger_enable.p
+[22 <./data/Meas_End.png> <./data/pullDown_Switch.png> <./data/trigger_enable.p
 ng>]
-<data/Transistor_LogicLED.png, id=155, 793.16325pt x 374.5995pt>
+<data/Transistor_LogicLED.png, id=152, 793.16325pt x 374.5995pt>
 File: data/Transistor_LogicLED.png Graphic file (type png)
 <use data/Transistor_LogicLED.png>
 Package pdftex.def Info: data/Transistor_LogicLED.png  used on input line 160. 
 on input line 160.
 Package pdftex.def Info: Requested size: 435.32419pt x 205.59595pt on input lin
 e 160.
-<data/Display.png, id=156, 403.5075pt x 504.08325pt>
+<data/Display.png, id=153, 403.5075pt x 504.08325pt>
 File: data/Display.png Graphic file (type png)
 <use data/Display.png>
 Package pdftex.def Info: data/Display.png  used on input line 178. on input lin
@@ -1757,7 +1756,7 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 178--179
  [][] 
  []
 
-[24 <./data/Transistor_LogicLED.png>] [25 <./data/Display.png>]) [26]
+[23 <./data/Transistor_LogicLED.png>] [24 <./data/Display.png>]) [25]
 (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1779,10 +1778,10 @@ s/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utop
 ia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.p
 fb>
-Output written on report.pdf (27 pages, 1484602 bytes).
+Output written on report.pdf (26 pages, 1484192 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 189 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
